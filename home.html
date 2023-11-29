@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icon.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Sustainable Future | MCS</title>
+    <link rel="stylesheet" href="style-home.css">
+</head>
+<body>
+    <h1>Building a Sustainable Future</h1>
+
+    <div id="nav">
+      <a href="home.html" id="page">Home</a>
+      <a href="page-1.html">Renewable Energy </a>
+      <a href="page-2.html">Biodiverse Ecotopias</a>
+      <a href="page-3.html">Zero Waste</a>
+      <a href="page-4.html">Advanced Technology</a>
+      <a href="page-5.html">Global Collaboration</a>
+      <a href="page-6.html">Education and Awareness</a>
+      <a href="page-7.html">Sustainable Living</a>
+      <a href="feedback.html">Feedback</a>
+    </div>
+<br>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <img src="sd.jpg" style="width:auto; height:200px ;	display: block;
+      margin-left: auto;
+      margin-right: auto;
+      ">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="sd2.jpg" style="width:auto; height:200px ;	display: block;
+      margin-left: auto;
+      margin-right: auto;
+      ">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="sd3.jpg" style="width:auto; height:200px ;	display: block;
+      margin-left: auto;
+      margin-right: auto;
+      ">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div class="hidden" style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <h1>What Is Sustainable ?🤔</h1>
+    <h3>Sustainable" refers to the ability to maintain or support something over the long term without depleting resources or causing significant harm to the environment, society, or economy. Sustainability involves finding a balance between meeting the needs of the present without compromising the ability of future generations to meet their own needs.</h3>
+    <br>
+    <h2>1.Renewable Energy Dominance</h2>
+    <h3>In the sustainable world of 10,000, the once-dominant reliance on fossil fuels has given way to an energy landscape powered by renewable sources. Advanced solar, wind, and tidal technologies now harness the natural forces of the Earth, providing clean and abundant energy to meet the needs of a thriving global population.</h3>
+<br>
+    <h2>2.Biodiverse Ecotopias</h2>
+    <h3>The preservation of biodiversity has been a cornerstone of the sustainable future. Lush green landscapes stretch across the planet, showcasing the successful conservation efforts that have revitalized ecosystems and protected endangered species. Urban centers seamlessly integrate with nature, fostering a harmonious coexistence between humanity and the diverse array of life that shares our planet.</h3>
+<br>
+    <h2>3.Circular Economies and Zero Waste</h2>
+    <h3>The wasteful practices of the past have been replaced by circular economies where resources are carefully managed and reused. Innovations in material science and waste management have virtually eliminated the concept of "waste," with everything from consumer products to industrial by-products finding new life through recycling, upcycling, and repurposing.</h3>
+<br>
+    <h2>4.Advanced Technology for Sustainable Living</h2>
+    <h3>Technology in the year 10,000 is not only cutting-edge but also deeply intertwined with sustainability. Smart cities harness artificial intelligence and data analytics to optimize resource usage, reduce energy consumption, and enhance the overall quality of life. From energy-efficient transportation systems to sustainable agriculture practices, technology has become a powerful ally in our quest for a balanced future.</h3>
+<br>
+    <h2>5.Global Collaboration for Planetary Well-Being</h2>
+    <h3>The sustainable future of 10,000 is characterized by unprecedented global collaboration. Nations, communities, and individuals work hand in hand to address shared challenges, recognizing that the health of the planet is a collective responsibility. International partnerships facilitate the exchange of knowledge, resources, and technology, ensuring that no corner of the globe is left behind in the pursuit of sustainability.</h3>
+<br>
+    <h2>6.Education and Awareness</h2>
+    <h3>Education has played a pivotal role in shaping a sustainable mindset among the inhabitants of the Earth in 10,000. From an early age, individuals are instilled with a deep understanding of their interconnectedness with the environment. Sustainability is not just a practice but a way of life, ingrained in the cultural fabric of societies across the globe.</h3>
+<br>
+
+<div id="cr"><br>
+   <h2>© Copyright 2023 Building a Sustainable Future | MCS. All rights reserved.</h2>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</body>
+</html>

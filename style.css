@@ -1,0 +1,78 @@
+#login{
+
+ border: 3px solid green;
+ display: flex;  gap: 10px;
+ width:500px ;
+        border-radius: 22px;
+
+        background-color:#95a8a585;
+        position: absolute;
+        
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+}
+
+
+h1{
+        font-size: 75px;
+}
+label{
+        font-size: xx-large;
+}
+*{
+        font-weight: 900;
+}
+body {
+	background: linear-gradient(-45deg, rgb(161, 253, 13), rgb(204, 94, 180), rgb(3, 148, 192), #0408cc);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+input{
+        margin-left: 100px;
+        margin-right: 50px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.616);
+        width: 300px;
+        height: 30px;
+}
+#submit{
+        margin-left:100px;
+        font-size: large;
+}
+
+input:hover{
+        
+        animation: submit infinite 2s ease;
+}
+@keyframes submit {
+      100%{
+
+       background-color: #95a8a5;  
+        
+
+}  
+}
+a>img{
+        visibility: hidden;
+    }
+
+label{
+        margin-left:175px;
+        font-size: xx-large;
+}

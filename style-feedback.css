@@ -1,0 +1,264 @@
+h1{
+    font-size: xxx-large;
+    text-align: center;
+}
+.l{
+    margin-left: 100px;
+    font-size: xxx-large;
+    float: left;
+    color: black;
+}
+.a{
+    margin-left: 0%;
+    font-size: xxx-large;
+    float: left;
+    color: black;
+}
+.ll{
+    margin-left: 100px;
+    font-size: xx-large;
+    color: rgb(185, 175, 175);
+}
+.ll:hover{
+    animation: ll infinite ease 2s;
+}
+@keyframes ll {
+    100%{
+    color:rgb(0, 0, 0);
+    }
+}
+#nav{
+
+    background-color: rgb(92, 88, 88);
+    position: sticky;
+    top: 1px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin-left: 1%;
+    font-size:18px;
+}
+
+body {
+	background: linear-gradient(-45deg, rgb(161, 253, 13), rgb(204, 94, 180), rgb(3, 148, 192), #0408cc);
+	background-size: 1000% 1000%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+#page{background-color: black;}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a>img{
+    visibility: hidden;
+}
+
+a:hover{
+    animation: nav infinite ease 2s;
+    
+}
+@keyframes nav {
+100%{background-color: black;
+color:white;
+}
+}
+
+form{
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.24);
+    
+}
+label{
+    margin-left: 50px;
+}
+.i{
+    margin-left: 50px;
+font-size: x-large;
+height: 25px;
+}
+input,textarea{
+    border-radius: 20px;
+    border:none;
+}
+textarea{
+    margin-left: 75px;
+}
+label{
+    font-size: x-large;
+}
+input{
+    height: 20px;
+}
+.i:hover{
+    animation: nav infinite ease 2s;
+}
+
+
+
+form{
+    position: absolute;
+        
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:900px ;
+}
+
+
+h1{color:black;}
+h2{color: rgb(229, 255, 0);}
+h3{color: #ffffff;}
+h4{color: crimson;}
+
+
+@media (max-width:1300px) and (min-width:1000px) {
+    form{
+        width: 900px;
+    }
+    a{
+        font-size: 13.5px;
+    }
+}
+@media (max-width:1000px) and (min-width:800px) {
+    form{
+        width: 600px;
+    }
+    a{
+        font-size: 11px;
+    }
+    label{
+        margin-left: 50px;
+    }
+    .i{
+        margin-left: 50px;
+    font-size: large;
+    height: 20px;
+    }
+    input,textarea{
+        border-radius: 15px;
+        border:none;
+    }
+    textarea{
+        margin-left: 50px;
+    }
+    label{
+        font-size: large;
+    }
+    input{
+        height: 15px;
+    }
+}
+@media (max-width:800px) and (min-width:600px) {
+    form{
+        width: 400px;
+    }
+    a{
+        font-size: 8px;
+    }
+    label{
+        margin-left: 25px;
+    }
+    .i{
+        margin-left: 25px;
+    font-size: large;
+    height: 20px;
+    }
+    input,textarea{
+        border-radius: 10px;
+        border:none;
+    }
+    textarea{
+        margin-left: 25px;
+        width:300px;
+    }
+    label{
+        font-size: large;
+    }
+    input{
+        height: 13px;
+    }
+}
+@media (max-width:600px) and (min-width:400px) {
+    form{
+        width: 300px;
+    }
+    a{
+        font-size: 5px;
+    }
+    label{
+        margin-left: 25px;
+    }
+    .i{
+        margin-left: 50px;
+    font-size: large;
+    height: 15px;
+    }
+    textarea{
+        width: 250px;
+    }
+    input,textarea{
+        border-radius: 5px;
+        border:none;
+    }
+    textarea{
+        margin-left: 25px;
+    }
+    label{
+        font-size: large;
+    }
+    input{
+        height: 10px;
+    }
+}
+
+@media (max-width:400px) and (min-width:200px) {
+    form{
+        margin-top: 200px;
+        width: 175px;
+    }
+    a{
+        font-size: 8px;
+    }
+    label{
+        margin-left: 15px;
+    }
+    .i{
+        margin-left: 25px;
+    font-size: medium;
+    height: 10px;
+    }
+    textarea{
+        width: 150px;
+    }
+    input,textarea{
+        border-radius: 5px;
+        border:none;
+    }
+    textarea{
+        margin-left: 10px;
+    }
+    label{
+        font-size: medium;
+    }
+    input{
+        height: 15px;
+        width: 100px;
+    }
+
+}
+
+#con{
+    border: 2px solid black;
+}
